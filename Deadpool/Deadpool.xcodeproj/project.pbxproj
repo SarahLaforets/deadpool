@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		8CEF31EF1D36BE13008055B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF31EE1D36BE13008055B7 /* main.m */; };
 		8CEF31F21D36BE13008055B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF31F11D36BE13008055B7 /* AppDelegate.m */; };
-		8CEF31F51D36BE13008055B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF31F41D36BE13008055B7 /* ViewController.m */; };
 		8CEF31F81D36BE13008055B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF31F61D36BE13008055B7 /* Main.storyboard */; };
 		8CEF31FA1D36BE13008055B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF31F91D36BE13008055B7 /* Assets.xcassets */; };
 		8CEF31FD1D36BE13008055B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF31FB1D36BE13008055B7 /* LaunchScreen.storyboard */; };
+		8CEF32061D36C2ED008055B7 /* VictimsFullTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF32051D36C2ED008055B7 /* VictimsFullTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		8CEF31EE1D36BE13008055B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CEF31F01D36BE13008055B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CEF31F11D36BE13008055B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8CEF31F31D36BE13008055B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8CEF31F41D36BE13008055B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8CEF31F71D36BE13008055B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CEF31F91D36BE13008055B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CEF31FC1D36BE13008055B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CEF31FE1D36BE13008055B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEF32041D36C2ED008055B7 /* VictimsFullTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictimsFullTableViewController.h; sourceTree = "<group>"; };
+		8CEF32051D36C2ED008055B7 /* VictimsFullTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimsFullTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			children = (
 				8CEF31F01D36BE13008055B7 /* AppDelegate.h */,
 				8CEF31F11D36BE13008055B7 /* AppDelegate.m */,
-				8CEF31F31D36BE13008055B7 /* ViewController.h */,
-				8CEF31F41D36BE13008055B7 /* ViewController.m */,
 				8CEF31F61D36BE13008055B7 /* Main.storyboard */,
+				8CEF32041D36C2ED008055B7 /* VictimsFullTableViewController.h */,
+				8CEF32051D36C2ED008055B7 /* VictimsFullTableViewController.m */,
 				8CEF31F91D36BE13008055B7 /* Assets.xcassets */,
 				8CEF31FB1D36BE13008055B7 /* LaunchScreen.storyboard */,
 				8CEF31FE1D36BE13008055B7 /* Info.plist */,
@@ -149,8 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEF31F51D36BE13008055B7 /* ViewController.m in Sources */,
 				8CEF31F21D36BE13008055B7 /* AppDelegate.m in Sources */,
+				8CEF32061D36C2ED008055B7 /* VictimsFullTableViewController.m in Sources */,
 				8CEF31EF1D36BE13008055B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
