@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VictimsFullTableViewController.h
 //  Deadpool
 //
 //  Created by Sarah LAFORETS on 13/07/2016.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VictimTableBase.h"
 
-@interface ViewController : UIViewController
-
+@interface VictimsFullTableViewController : VictimTableBase
 
 @end
-

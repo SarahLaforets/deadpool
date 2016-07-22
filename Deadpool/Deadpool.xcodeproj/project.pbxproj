@@ -7,28 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C07E1ED1D422D69004D7099 /* DeadpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07E1EC1D422D69004D7099 /* DeadpoolUITests.swift */; };
+		8C08ECEE1D3E5DC100319833 /* DeadpoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C08ECED1D3E5DC100319833 /* DeadpoolTests.m */; };
+		8C08ECF61D3E7A8900319833 /* VictimsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C08ECF51D3E7A8900319833 /* VictimsManagerTests.m */; };
+		8C0FDA701D40CB2D008E6843 /* VictimTableBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FDA6F1D40CB2D008E6843 /* VictimTableBase.m */; };
+		8C0FDA761D40D8B2008E6843 /* VictimKilledTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FDA751D40D8B2008E6843 /* VictimKilledTableViewController.m */; };
+		8C0FDA781D40DAF5008E6843 /* VictimTableBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FDA771D40DAF5008E6843 /* VictimTableBaseTests.m */; };
+		8C2C2A791D3D128E00100197 /* VictimsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C2A781D3D128E00100197 /* VictimsManager.m */; };
+		8C71D6611D377E0D00CBF708 /* Victim.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C71D6601D377E0D00CBF708 /* Victim.m */; };
+		8C71D6661D37A27700CBF708 /* VictimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C71D6651D37A27700CBF708 /* VictimViewController.m */; };
+		8C71D66A1D3CDC2700CBF708 /* VictimAliveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C71D6691D3CDC2700CBF708 /* VictimAliveTableViewController.m */; };
+		8C71D66F1D3CDC8500CBF708 /* VictimTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C71D66D1D3CDC8500CBF708 /* VictimTableViewCell.xib */; };
 		8CEF31EF1D36BE13008055B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF31EE1D36BE13008055B7 /* main.m */; };
 		8CEF31F21D36BE13008055B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF31F11D36BE13008055B7 /* AppDelegate.m */; };
-		8CEF31F51D36BE13008055B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF31F41D36BE13008055B7 /* ViewController.m */; };
 		8CEF31F81D36BE13008055B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF31F61D36BE13008055B7 /* Main.storyboard */; };
 		8CEF31FA1D36BE13008055B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF31F91D36BE13008055B7 /* Assets.xcassets */; };
 		8CEF31FD1D36BE13008055B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF31FB1D36BE13008055B7 /* LaunchScreen.storyboard */; };
+		8CEF32061D36C2ED008055B7 /* VictimsFullTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF32051D36C2ED008055B7 /* VictimsFullTableViewController.m */; };
+		8CEF32091D36C453008055B7 /* VictimTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF32081D36C453008055B7 /* VictimTableViewCell.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8C07E1EF1D422D69004D7099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CEF31E21D36BE13008055B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEF31E91D36BE13008055B7;
+			remoteInfo = Deadpool;
+		};
+		8C08ECF01D3E5DC100319833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CEF31E21D36BE13008055B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEF31E91D36BE13008055B7;
+			remoteInfo = Deadpool;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8C07E1EA1D422D69004D7099 /* DeadpoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadpoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C07E1EC1D422D69004D7099 /* DeadpoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadpoolUITests.swift; sourceTree = "<group>"; };
+		8C07E1EE1D422D69004D7099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C08ECEB1D3E5DC100319833 /* DeadpoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadpoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C08ECED1D3E5DC100319833 /* DeadpoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadpoolTests.m; sourceTree = "<group>"; };
+		8C08ECEF1D3E5DC100319833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C08ECF51D3E7A8900319833 /* VictimsManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimsManagerTests.m; sourceTree = "<group>"; };
+		8C0FDA6E1D40CB2D008E6843 /* VictimTableBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictimTableBase.h; sourceTree = "<group>"; };
+		8C0FDA6F1D40CB2D008E6843 /* VictimTableBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimTableBase.m; sourceTree = "<group>"; };
+		8C0FDA741D40D8B2008E6843 /* VictimKilledTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictimKilledTableViewController.h; sourceTree = "<group>"; };
+		8C0FDA751D40D8B2008E6843 /* VictimKilledTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimKilledTableViewController.m; sourceTree = "<group>"; };
+		8C0FDA771D40DAF5008E6843 /* VictimTableBaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimTableBaseTests.m; sourceTree = "<group>"; };
+		8C2C2A771D3D128E00100197 /* VictimsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictimsManager.h; sourceTree = "<group>"; };
+		8C2C2A781D3D128E00100197 /* VictimsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimsManager.m; sourceTree = "<group>"; };
+		8C71D65F1D377E0D00CBF708 /* Victim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Victim.h; sourceTree = "<group>"; };
+		8C71D6601D377E0D00CBF708 /* Victim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Victim.m; sourceTree = "<group>"; };
+		8C71D6641D37A27700CBF708 /* VictimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictimViewController.h; sourceTree = "<group>"; };
+		8C71D6651D37A27700CBF708 /* VictimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimViewController.m; sourceTree = "<group>"; };
+		8C71D6671D37D2B100CBF708 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8C71D6681D3CDC2700CBF708 /* VictimAliveTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictimAliveTableViewController.h; sourceTree = "<group>"; };
+		8C71D6691D3CDC2700CBF708 /* VictimAliveTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimAliveTableViewController.m; sourceTree = "<group>"; };
+		8C71D66D1D3CDC8500CBF708 /* VictimTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VictimTableViewCell.xib; sourceTree = "<group>"; };
 		8CEF31EA1D36BE13008055B7 /* Deadpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deadpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEF31EE1D36BE13008055B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CEF31F01D36BE13008055B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CEF31F11D36BE13008055B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8CEF31F31D36BE13008055B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8CEF31F41D36BE13008055B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8CEF31F71D36BE13008055B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CEF31F91D36BE13008055B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CEF31FC1D36BE13008055B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CEF31FE1D36BE13008055B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEF32041D36C2ED008055B7 /* VictimsFullTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictimsFullTableViewController.h; sourceTree = "<group>"; };
+		8CEF32051D36C2ED008055B7 /* VictimsFullTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimsFullTableViewController.m; sourceTree = "<group>"; };
+		8CEF32071D36C453008055B7 /* VictimTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictimTableViewCell.h; sourceTree = "<group>"; };
+		8CEF32081D36C453008055B7 /* VictimTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictimTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C07E1E71D422D69004D7099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C08ECE81D3E5DC100319833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CEF31E71D36BE13008055B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +106,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C07E1EB1D422D69004D7099 /* DeadpoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C07E1EC1D422D69004D7099 /* DeadpoolUITests.swift */,
+				8C07E1EE1D422D69004D7099 /* Info.plist */,
+			);
+			path = DeadpoolUITests;
+			sourceTree = "<group>";
+		};
+		8C08ECE41D3E483F00319833 /* Victim Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8C71D66D1D3CDC8500CBF708 /* VictimTableViewCell.xib */,
+				8CEF32071D36C453008055B7 /* VictimTableViewCell.h */,
+				8CEF32081D36C453008055B7 /* VictimTableViewCell.m */,
+			);
+			name = "Victim Cell";
+			sourceTree = "<group>";
+		};
+		8C08ECE51D3E484F00319833 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8C2C2A771D3D128E00100197 /* VictimsManager.h */,
+				8C2C2A781D3D128E00100197 /* VictimsManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		8C08ECE61D3E486E00319833 /* Victim Details */ = {
+			isa = PBXGroup;
+			children = (
+				8C71D6641D37A27700CBF708 /* VictimViewController.h */,
+				8C71D6651D37A27700CBF708 /* VictimViewController.m */,
+			);
+			name = "Victim Details";
+			sourceTree = "<group>";
+		};
+		8C08ECEC1D3E5DC100319833 /* DeadpoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C08ECED1D3E5DC100319833 /* DeadpoolTests.m */,
+				8C08ECF51D3E7A8900319833 /* VictimsManagerTests.m */,
+				8C0FDA771D40DAF5008E6843 /* VictimTableBaseTests.m */,
+				8C08ECEF1D3E5DC100319833 /* Info.plist */,
+			);
+			path = DeadpoolTests;
+			sourceTree = "<group>";
+		};
+		8C0FDA711D40D467008E6843 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C0FDA731D40D888008E6843 /* Victim Killed */,
+				8C71D6621D37A22900CBF708 /* Victim Full */,
+				8C08ECE41D3E483F00319833 /* Victim Cell */,
+				8C9520A41D3D431A00C9C06C /* Victim Alive */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8C0FDA721D40D481008E6843 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				8C0FDA6E1D40CB2D008E6843 /* VictimTableBase.h */,
+				8C0FDA6F1D40CB2D008E6843 /* VictimTableBase.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		8C0FDA731D40D888008E6843 /* Victim Killed */ = {
+			isa = PBXGroup;
+			children = (
+				8C0FDA741D40D8B2008E6843 /* VictimKilledTableViewController.h */,
+				8C0FDA751D40D8B2008E6843 /* VictimKilledTableViewController.m */,
+			);
+			name = "Victim Killed";
+			sourceTree = "<group>";
+		};
+		8C71D6621D37A22900CBF708 /* Victim Full */ = {
+			isa = PBXGroup;
+			children = (
+				8CEF32041D36C2ED008055B7 /* VictimsFullTableViewController.h */,
+				8CEF32051D36C2ED008055B7 /* VictimsFullTableViewController.m */,
+			);
+			name = "Victim Full";
+			sourceTree = "<group>";
+		};
+		8C71D6631D37A26100CBF708 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C71D65F1D377E0D00CBF708 /* Victim.h */,
+				8C71D6601D377E0D00CBF708 /* Victim.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8C9520A41D3D431A00C9C06C /* Victim Alive */ = {
+			isa = PBXGroup;
+			children = (
+				8C71D6681D3CDC2700CBF708 /* VictimAliveTableViewController.h */,
+				8C71D6691D3CDC2700CBF708 /* VictimAliveTableViewController.m */,
+			);
+			name = "Victim Alive";
+			sourceTree = "<group>";
+		};
 		8CEF31E11D36BE13008055B7 = {
 			isa = PBXGroup;
 			children = (
 				8CEF31EC1D36BE13008055B7 /* Deadpool */,
+				8C08ECEC1D3E5DC100319833 /* DeadpoolTests */,
+				8C07E1EB1D422D69004D7099 /* DeadpoolUITests */,
 				8CEF31EB1D36BE13008055B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +224,8 @@
 			isa = PBXGroup;
 			children = (
 				8CEF31EA1D36BE13008055B7 /* Deadpool.app */,
+				8C08ECEB1D3E5DC100319833 /* DeadpoolTests.xctest */,
+				8C07E1EA1D422D69004D7099 /* DeadpoolUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +235,13 @@
 			children = (
 				8CEF31F01D36BE13008055B7 /* AppDelegate.h */,
 				8CEF31F11D36BE13008055B7 /* AppDelegate.m */,
-				8CEF31F31D36BE13008055B7 /* ViewController.h */,
-				8CEF31F41D36BE13008055B7 /* ViewController.m */,
+				8C71D6671D37D2B100CBF708 /* Constants.h */,
+				8C0FDA721D40D481008E6843 /* BaseController */,
+				8C0FDA711D40D467008E6843 /* Controller */,
+				8C08ECE51D3E484F00319833 /* Manager */,
+				8C71D6631D37A26100CBF708 /* Model */,
 				8CEF31F61D36BE13008055B7 /* Main.storyboard */,
+				8C08ECE61D3E486E00319833 /* Victim Details */,
 				8CEF31F91D36BE13008055B7 /* Assets.xcassets */,
 				8CEF31FB1D36BE13008055B7 /* LaunchScreen.storyboard */,
 				8CEF31FE1D36BE13008055B7 /* Info.plist */,
@@ -82,6 +261,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C07E1E91D422D69004D7099 /* DeadpoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C07E1F11D422D69004D7099 /* Build configuration list for PBXNativeTarget "DeadpoolUITests" */;
+			buildPhases = (
+				8C07E1E61D422D69004D7099 /* Sources */,
+				8C07E1E71D422D69004D7099 /* Frameworks */,
+				8C07E1E81D422D69004D7099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C07E1F01D422D69004D7099 /* PBXTargetDependency */,
+			);
+			name = DeadpoolUITests;
+			productName = DeadpoolUITests;
+			productReference = 8C07E1EA1D422D69004D7099 /* DeadpoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8C08ECEA1D3E5DC100319833 /* DeadpoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C08ECF21D3E5DC100319833 /* Build configuration list for PBXNativeTarget "DeadpoolTests" */;
+			buildPhases = (
+				8C08ECE71D3E5DC100319833 /* Sources */,
+				8C08ECE81D3E5DC100319833 /* Frameworks */,
+				8C08ECE91D3E5DC100319833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C08ECF11D3E5DC100319833 /* PBXTargetDependency */,
+			);
+			name = DeadpoolTests;
+			productName = DeadpoolTests;
+			productReference = 8C08ECEB1D3E5DC100319833 /* DeadpoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8CEF31E91D36BE13008055B7 /* Deadpool */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CEF32011D36BE13008055B7 /* Build configuration list for PBXNativeTarget "Deadpool" */;
@@ -105,9 +320,18 @@
 		8CEF31E21D36BE13008055B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Sarah LAFORETS";
 				TargetAttributes = {
+					8C07E1E91D422D69004D7099 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8CEF31E91D36BE13008055B7;
+					};
+					8C08ECEA1D3E5DC100319833 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8CEF31E91D36BE13008055B7;
+					};
 					8CEF31E91D36BE13008055B7 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -127,11 +351,27 @@
 			projectRoot = "";
 			targets = (
 				8CEF31E91D36BE13008055B7 /* Deadpool */,
+				8C08ECEA1D3E5DC100319833 /* DeadpoolTests */,
+				8C07E1E91D422D69004D7099 /* DeadpoolUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8C07E1E81D422D69004D7099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C08ECE91D3E5DC100319833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CEF31E81D36BE13008055B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,23 +379,62 @@
 				8CEF31FD1D36BE13008055B7 /* LaunchScreen.storyboard in Resources */,
 				8CEF31FA1D36BE13008055B7 /* Assets.xcassets in Resources */,
 				8CEF31F81D36BE13008055B7 /* Main.storyboard in Resources */,
+				8C71D66F1D3CDC8500CBF708 /* VictimTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C07E1E61D422D69004D7099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C07E1ED1D422D69004D7099 /* DeadpoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C08ECE71D3E5DC100319833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C08ECEE1D3E5DC100319833 /* DeadpoolTests.m in Sources */,
+				8C0FDA781D40DAF5008E6843 /* VictimTableBaseTests.m in Sources */,
+				8C08ECF61D3E7A8900319833 /* VictimsManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CEF31E61D36BE13008055B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEF31F51D36BE13008055B7 /* ViewController.m in Sources */,
+				8C71D66A1D3CDC2700CBF708 /* VictimAliveTableViewController.m in Sources */,
+				8C0FDA701D40CB2D008E6843 /* VictimTableBase.m in Sources */,
+				8C71D6661D37A27700CBF708 /* VictimViewController.m in Sources */,
 				8CEF31F21D36BE13008055B7 /* AppDelegate.m in Sources */,
+				8CEF32061D36C2ED008055B7 /* VictimsFullTableViewController.m in Sources */,
 				8CEF31EF1D36BE13008055B7 /* main.m in Sources */,
+				8C0FDA761D40D8B2008E6843 /* VictimKilledTableViewController.m in Sources */,
+				8C2C2A791D3D128E00100197 /* VictimsManager.m in Sources */,
+				8C71D6611D377E0D00CBF708 /* Victim.m in Sources */,
+				8CEF32091D36C453008055B7 /* VictimTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C07E1F01D422D69004D7099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CEF31E91D36BE13008055B7 /* Deadpool */;
+			targetProxy = 8C07E1EF1D422D69004D7099 /* PBXContainerItemProxy */;
+		};
+		8C08ECF11D3E5DC100319833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CEF31E91D36BE13008055B7 /* Deadpool */;
+			targetProxy = 8C08ECF01D3E5DC100319833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8CEF31F61D36BE13008055B7 /* Main.storyboard */ = {
@@ -177,6 +456,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8C07E1F21D422D69004D7099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeadpoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.DeadpoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = Deadpool;
+			};
+			name = Debug;
+		};
+		8C07E1F31D422D69004D7099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeadpoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.DeadpoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Deadpool;
+			};
+			name = Release;
+		};
+		8C08ECF31D3E5DC100319833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DeadpoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.DeadpoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deadpool.app/Deadpool";
+			};
+			name = Debug;
+		};
+		8C08ECF41D3E5DC100319833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DeadpoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.DeadpoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deadpool.app/Deadpool";
+			};
+			name = Release;
+		};
 		8CEF31FF1D36BE13008055B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -284,6 +613,23 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C07E1F11D422D69004D7099 /* Build configuration list for PBXNativeTarget "DeadpoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C07E1F21D422D69004D7099 /* Debug */,
+				8C07E1F31D422D69004D7099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C08ECF21D3E5DC100319833 /* Build configuration list for PBXNativeTarget "DeadpoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C08ECF31D3E5DC100319833 /* Debug */,
+				8C08ECF41D3E5DC100319833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8CEF31E51D36BE13008055B7 /* Build configuration list for PBXProject "Deadpool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -300,6 +646,7 @@
 				8CEF32031D36BE13008055B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
